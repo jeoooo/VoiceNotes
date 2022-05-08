@@ -72,8 +72,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void gotoInfoScreen() {
-        Intent intent = new Intent(getApplicationContext(), InfoScreen.class);
-        startActivity(intent);
+        imageView_info.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), InfoScreen.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     private void showNoNotes() {
