@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatDelegate;
 
 import android.content.ContentValues;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.database.sqlite.SQLiteDatabase;
 import android.icu.text.SimpleDateFormat;
 import android.icu.util.Calendar;

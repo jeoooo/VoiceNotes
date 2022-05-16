@@ -12,10 +12,12 @@
         android:theme="@style/Theme.VoiceNotes">
         <activity
             android:name=".InfoScreen"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".SplashScreen"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,13 +29,16 @@
             android:exported="false"
             android:label="@string/title_activity_notes_adapter"
             android:theme="@style/Theme.VoiceNotes.NoActionBar"
-            tools:ignore="Instantiatable" />
+            tools:ignore="Instantiatable"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".CreateNotes"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"/>
 
         <meta-data
             android:name="preloaded_fonts"
